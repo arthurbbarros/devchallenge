@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:wght@300&family=Oswald:wght@200&family=Playfair+Display:wght@600&family=Roboto+Condensed&family=Tiro+Devanagari+Hindi&family=Tiro+Telugu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body {
+    font-size: 100%;
+    
+    
+   
+    
+
+
+}
+
+.cabecalho{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.icone{
+    font-family: 'Bebas Neue', cursive;
+    color: #D2872C;
+    font-weight: 400;
+    font-size: 60px;
+    margin-left: 2px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+.menu-item{
+    transition: 0.4s;
+}
+
+.menu-item:hover {
+    color: #D2872C;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 48px;
+  border-top: 0.4px solid #D2872C;
+   }
+
+   .conteudo{
+       display: flex;
+       flex-direction: column-reverse;
+       justify-content: space-around;
+       align-items: center;
+
+}
+
+.conteudo-texto{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.texto2{
+    font-family: 'Roboto', sans-serif;
+    color: #766F68;
+    padding: 20px;
+    
+}
+
+.botao{
+    background-color: #D2872C;
+    color: white;
+    transition: 0.3s;
+    font-size: 30px;
+    border-style:inherit;
+    border-radius: 10px;
+    height: 50px;
+    width: 400px;
+}
+
+.botao:hover{
+    background-color: aliceblue;
+    color: #D2872C;
+    border-style:solid;
+    border-color: black;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 17px;
+    border-top: 0.4px solid #D2872C;
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 17px;
+}
+
+.contato-footer{
+    font-family:'Bebas Neue', cursive;
+    color: #D2872C;
+
+}
